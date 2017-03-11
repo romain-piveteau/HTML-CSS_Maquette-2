@@ -1,0 +1,289 @@
+/*BEGIN RESET DEFAULT CSS RULES*/
+body, h1, h2, h3, p, img, video, a{
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    text-decoration: none;
+    line-height: 1.8;
+    border: 0;
+    font-size: 100%;
+    color: #81888F;
+    font-family: 'Comic', 'Sans serif';
+}
+
+body{
+    width: 100%;
+    background-image: url('transparent.png');
+    overflow-x: hidden;
+    background-repeat: repeat;
+}
+
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*END RESET DEFAULT CSS RULES*/
+
+.reset{
+    clear: both;
+}
+
+h3{
+    font-size: 150%;
+    text-transform: uppercase;
+    color: #E97A42;
+    margin-bottom: -6px;
+}
+
+h4 + ul > li{
+    background-image: url('misc/accueil_icone.png');
+    background-repeat: no-repeat;
+    background-position: 0 10px;
+}
+
+h4 + ul > li + li{
+    background-image: url('misc/telephone_icone.png');
+    background-repeat: no-repeat;
+    background-position: 0 10px;
+}
+
+h4 + ul > li + li + li{
+    background-image: url('misc/mail_icone.png');
+    background-repeat: no-repeat;
+    background-position: 0 10px;
+}
+
+h4 + ul > li + li + li + li{
+    background-image: url('misc/aide_icone.png');
+    background-repeat: no-repeat;
+    background-position: 0 10px;
+}
+/* class container used for center page */
+.container{
+    width: 1080px;
+    margin: auto;
+}
+
+/* class css rules for header elements begin below */
+.topDiv{
+    padding-right: 1.5em;
+    color: #81888F;
+    text-align: left;
+    float: left;
+    display: inline;
+}
+
+.topDiv h2{
+    text-indent: 1em;
+    font-size: 0.6em;
+}
+
+.topDiv ul li{
+    min-width: 10em;
+    font-size: 0.6em;
+    text-indent: 1em;
+}
+
+/* css style for class date of publication and article content begin below */
+.postContent{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.postDate{
+    color: #BEC0CE;
+    font-style: italic;
+}
+
+/* css style for id header begin below */
+#header{
+    padding: 3em;
+    margin: auto;
+    background-image: url('misc/grille.png');
+    background-repeat: repeat;
+}
+
+#header img{
+    margin-right: 9em;
+}
+
+#header hr{
+    border: none;
+    height: 5px;
+}
+
+/* Color for unederline h2 header */
+#hrHOTELS{
+    background-color: #F76900;
+}
+
+#hrRESTAURANTS{
+    background-color: #FDD96D;
+}
+
+#hrSERVICES{
+    background-color: #B9D482;
+}
+
+#hrACTIVITES{
+    background-color: #3D92C2;
+}
+
+#hrPLUS{
+    background-color: #C078D0;
+}
+
+#content{
+    clear: both;
+    position: relative;
+    font-size: 0.8em;
+    margin-top: 10px;
+    border-top: 1px #F0F0F0 solid;
+    border-bottom: 1px #F0F0F0 solid;
+}
+
+#video{
+    clear: both;
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    border-top: 1px #F0F0F0 solid;
+    border-bottom: 1px #F0F0F0 solid;
+}
+
+#video object{
+    margin-left: 150px;
+    width: 40em;
+    height: 23em;
+    position: relative;
+    margin-top: 30px;
+}
+#subVideo > .container{
+    width: 100%;
+}
+
+#subVideo p{
+    clear: both;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    background-image: url('misc/grille.png');
+    background-repeat: repeat;
+    padding: 1.5em 0 1.5em 0;
+    margin-left: -150px; 
+    font-size: 1.3em;
+}
+
+#leftContent{
+    clear: both;
+    float: left;
+    margin: 1.5em 0.5em;
+    width: 15em;
+    padding: 2em 1.2em 25px 1em;
+    border: 1px #F0F0F0 solid;
+}
+
+#leftContent img{
+    margin: auto;
+}
+
+#middleContent, #rightContent{
+    float: left;
+    margin: 1.5em 0.5em;
+    width: 15em;
+    padding: 2em 1.2em 25px 1em;
+}
+
+#rightContent{
+    width: 35em;
+}
+
+#rightContent img{
+    margin:  0.25em;
+    padding: 0.5em;
+    border: 1px #F0F0F0 solid;
+}
+
+#bottomContent{
+    font-size: 0.8em;
+    margin-top: 10px;
+    background-image: url('misc/grille.png');
+    background-repeat: repeat;
+}
+
+#bottomContent li{
+    padding-left: 25px;
+}
+
+#contact, #lastPost, #lastComment, #blablaLand{
+    float: left;
+    width: 14em;
+    margin: 1em 2em;
+}
+
+
+#footer{
+    font-size: 0.8em;
+    padding: 2em;
+    padding-left: 60px;
+    margin-top: 10px;
+    border-top: 1px #F0F0F0 solid;
+}
+
+#footerLeft{
+    display: inline;
+    float: left;
+}
+
+/* CSS rules for social icons defined below */
+#socialIcone{
+    float: left;
+}
+
+#socialIcone ul{
+    margin-left: 33em;
+}
+
+#socialIcone ul li{
+    display: inline;
+    padding-bottom: 35px;
+    padding-right: 35px;
+    margin-left: 5px;
+}
+
+#socialIcone ul > li{
+    background-image: url('misc/rss.png');
+    background-repeat: no-repeat;
+}
+
+#socialIcone ul > li + li{
+    background-image: url('misc/email.png');
+    background-repeat: no-repeat;
+}
+
+#socialIcone ul > li + li + li{
+    background-image: url('misc/twitter.png');
+    background-repeat: no-repeat;
+}
+
+#socialIcone ul > li + li + li + li{
+    background-image: url('misc/facebook.png');
+    background-repeat: no-repeat;
+}
+
+#socialIcone ul > li + li + li + li + li{
+    background-image: url('misc/pinterest.png');
+    background-repeat: no-repeat;
+}
+
+#socialIcone ul > li + li + li + li + li + li{
+    background-image: url('misc/google.png');
+    background-repeat: no-repeat;
+}
+
+#socialIcone ul li a{
+    padding: 0 35px 17.5px 0;
+    margin:  0 -35px -17.5px 0;
+}
